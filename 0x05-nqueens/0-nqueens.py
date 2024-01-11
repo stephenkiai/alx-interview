@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 """
-N Queens puzzle
+N Queens puzzle program using backtracking to find all possible solutions
 """
 
 import sys

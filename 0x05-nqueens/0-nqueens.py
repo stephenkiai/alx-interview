@@ -7,7 +7,9 @@ import sys
 
 
 class NQueensSolver:
+    """Class for solving the N Queens problem."""
     def __init__(self, N):
+        """Initialize the NQueensSolver with the board size N."""
         self.N = N
         self.board = [-1] * N
 
@@ -39,6 +41,10 @@ class NQueensSolver:
 
 
 def main():
+    """
+     Main function to handle command-line arguments
+     and initiate the solver.
+    """
     if len(sys.argv) != 2:
         print("Usage: nqueens N")
         sys.exit(1)

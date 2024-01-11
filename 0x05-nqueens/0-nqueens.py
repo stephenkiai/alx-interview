@@ -1,4 +1,4 @@
-#!/usr/bin/env python3
+#!/usr/bin/python3
 """
 N Queens puzzle program using backtracking to find all possible solutions
 """

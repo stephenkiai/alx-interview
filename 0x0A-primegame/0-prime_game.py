@@ -1,7 +1,10 @@
 #!/usr/bin/python3
+"""prime game"""
 
 def is_prime(num):
-    # checks if a given number is prime
+    """
+    checks if a given number is prime
+    """
     if num <= 1:
         return False
     if num <= 3:
@@ -17,7 +20,9 @@ def is_prime(num):
 
 
 def isWinner(x, nums):
-    # calculates the count of prime numbers & compare wins
+    """
+    calculates the count of prime numbers & compare wins
+    """
     maria_wins = 0
     ben_wins = 0
 
